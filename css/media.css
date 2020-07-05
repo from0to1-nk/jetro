@@ -1,0 +1,176 @@
+@media (max-width:970px) {
+
+    .slider__inner::before,
+    .slider__inner::after {
+        display: none;
+    }
+
+    .footer__inner::before,
+    .footer__inner::after {
+        display: none;
+    }
+
+    .slider__nav {
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width:950px) {
+    .works__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .works__item {
+        width: 34%;
+        margin-bottom: 15px;
+    }
+
+    .works__item-text {
+        border: none;
+    }
+
+    .footer__inner {
+        flex-wrap: wrap;
+
+    }
+
+    .footer__about {
+        margin-right: 20px;
+        width: 50%;
+    }
+
+
+    .footer__contact {
+        width: 100%;
+    }
+}
+
+@media (max-width:820px) {
+    .items__inner {
+        flex-wrap: wrap;
+    }
+
+    .items__inner .item {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .item__title {
+        margin-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    .item__icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+@media (max-width:725px) {
+    .works__item {
+        width: 40%;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+@media (max-width:600px) {
+    .footer__widget {
+        width: 100%;
+    }
+
+    .footer__title {
+        margin-bottom: 20px;
+    }
+
+    .footer__about {
+        margin-right: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .works__item {
+        width: max-content;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+}
+
+
+@media (max-width:550px) {
+    .menu__link {
+        font-size: 13px;
+        line-height: 15px;
+
+    }
+
+    .header__inner {
+        height: 66px;
+
+    }
+
+    .menu__list li+li {
+        margin-left: 15px;
+    }
+
+
+    .slider__item-inscript {
+        width: auto;
+        margin-right: 20px;
+        height: auto;
+
+    }
+
+}
+
+
+
+
+@media (max-width:450px) {
+    .header__inner {
+        height: 60px;
+        position: relative;
+    }
+
+    .menu__list li+li {
+        margin-left: 0;
+    }
+
+    .header__menu-btn {
+        display: block;
+    }
+
+    .menu__list {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        z-index: 2;
+        text-align: center;
+    }
+
+    .menu__list-item {
+        display: block;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e7e7e7;
+
+    }
+}
+
+@media (min-width:450px) {
+
+    .menu__list {
+        display: block !important;
+
+
+    }
+}
